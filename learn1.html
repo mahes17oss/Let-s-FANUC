@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn.LF</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="album.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="My project-1.png">
+  </head>
+<body><nav class="navbar navbar-expand-lg " style="background-color: orange">
+  <div class="container-fluid">
+   
+    <a class="navbar-brand" href="#"><img class="img-responsive2"       
+      src="My project-1.png" width="100" height="100">Let's FANUC</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="basics.html">Basics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutfanuc.html">About FANUC</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Settings
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index.html">Log-Out</a></li>
+          
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">G-Code</h1>
+          <p class="lead text-muted">CNC machines work by following the commands or instructions (G-codes / M-codes) which are given in Part Program. Here are G-codes for Fanuc cnc  control which are necessary for a cnc machinists to learn to understand cnc programming.</p>
+          <p>
+            
+          </p>
+        </div>
+      </section>
+
+      <table class="table" width="100px">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">G-Code</th>
+            
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>G00</td>
+            
+            <td>Rapid traverse</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>G01</td>
+           
+            <td>Linear interpolation</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>G02</td>
+           
+            <td>Circular interpolation CW</td>
+          </tr>
+          
+          <th scope="row">1</th>
+          <td>G03</td>
+          
+          <td>Circular interpolation CCW</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>G04</td>
+         
+          <td>Dwell</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>G09</td>
+         
+          <td>Exact stop</td>
+        </tr>
+        <th scope="row">1</th>
+        <td>G10</td>
+        
+        <td>Programmable data input</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>G20</td>
+       
+        <td>Input in inch</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>G21</td>
+       
+        <td>Input in mm</td>
+      </tr> <th scope="row">1</th>
+      <td>G22</td>
+      
+      <td>Stored stroke check function on</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>G23</td>
+     
+      <td>Stored stroke check function off</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>G27</td>
+     
+      <td>Reference position return check</td>
+    </tr> <th scope="row">1</th>
+    <td>G28</td>
+    
+    <td>Return to reference position</td>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>G32</td>
+   
+    <td>Thread cutting</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>G40</td>
+   
+    <td>Tool nose radius compensation cancel</td>
+  </tr> <th scope="row">1</th>
+  <td>G41</td>
+  
+  <td>Tool nose radius compensation left</td>
+</tr>
+<tr>
+  <th scope="row">2</th>
+  <td>G42</td>
+ 
+  <td>Tool nose radius compensation right</td>
+</tr>
+<tr>
+  <th scope="row">3</th>
+  <td>G70</td>
+ 
+  <td>Finish machining cycle</td>
+</tr>
+<tr>
+    <th scope="row">2</th>
+    <td>G71</td>
+   
+    <td>Turning cycle</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>G72</td>
+   
+    <td>Facing cycle</td>
+  </tr> <th scope="row">1</th>
+  <td>G73</td>
+  
+  <td>Pattern repeating cycle</td>
+</tr>
+<tr>
+  <th scope="row">2</th>
+  <td>G74</td>
+ 
+  <td>Peck drilling cycle</td>
+</tr>
+<tr>
+  <th scope="row">3</th>
+  <td>G75</td>
+ 
+  <td>Grooving cycle</td>
+</tr>
+<tr>
+    <th scope="row">2</th>
+    <td>G76</td>
+   
+    <td>Threading cycle</td>
+  </tr>
+  <tr>
+    <th scope="row">3</th>
+    <td>G92</td>
+   
+    <td>Coordinate system setting or max. spindle speed setting</td>
+  </tr> <th scope="row">1</th>
+  <td>G94</td>
+  
+  <td>Feed Per Minute</td>
+</tr>
+<tr>
+  <th scope="row">2</th>
+  <td>G95</td>
+ 
+  <td>Feed Per Revolution</td>
+</tr>
+<tr>
+  <th scope="row">3</th>
+  <td>G96</td>
+ 
+  <td>Constant surface speed control</td>
+</tr><tr>
+    <th scope="row">3</th>
+    <td>G97</td>
+   
+    <td>Constant surface speed control cancel</td>
+  </tr>
+
+        </tbody>
+      </table>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Video Reference </h1>
+          <p class="lead text-muted">CNC machines work by following the commands or instructions (G-codes / M-codes) which are given in Part Program. Here are G-codes for Fanuc cnc  control which are necessary for a cnc machinists to learn to understand cnc programming.</p>
+          <p>
+            
+          </p>
+        </div>
+      </section>
+      <div class="ratio ratio-16x9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FKspL_2U-qk" ></iframe>
+        </div>
+       
+          <div class="container"><p class="float-right"><br>
+            <a href="#">Back to top</a>
+          </p>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+               
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="text-muted">&copy; 2023 Let's FANUC. Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+              </ul>
+            </footer>
+          </div>
+    
+</body>
+</html>
